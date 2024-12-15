@@ -1,0 +1,65 @@
+const products = [
+     {
+       id: '1',
+       name: "Lily of the Valley Earcuff",
+       image: "https://images.unsplash.com/photo-1687797266892-8c94eae87456?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       description: "Priceless water lily of the valley earcuff crafted with resin and real flower petals.",
+       price: 100,
+       countInStock: 4,
+       rating: 4.5,
+       numReview: 3,
+     },
+     {
+       id: '2',
+       name: "Rose Petal Pendant",
+       image: "https://images.unsplash.com/photo-1586041869477-85a0e7f903d2?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3",
+       description: "Elegant pendant featuring preserved rose petals encased in resin.",
+       price: 85,
+       countInStock: 6,
+       rating: 4.8,
+       numReview: 5,
+     },
+     {
+       id: '3',
+       name: "Daisy Charm Bracelet",
+       image: "https://images.unsplash.com/photo-1620113443168-2d94bbbe7e38?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3",
+       description: "Charming bracelet with mini resin-encased daisies.",
+       price: 70,
+       countInStock: 10,
+       rating: 4.3,
+       numReview: 8,
+     },
+     {
+       id: '4',
+       name: "Lavender Resin Ring",
+       image: "https://images.unsplash.com/photo-1645059737665-72d8b0f11a6a?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3",
+       description: "A unique resin ring featuring delicate lavender flowers.",
+       price: 60,
+       countInStock: 5,
+       rating: 4.7,
+       numReview: 4,
+     },
+     {
+       id: '5',
+       name: "Poppy Flower Earrings",
+       image: "https://images.unsplash.com/photo-1574289243764-2de0eb4c5ed9?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3",
+       description: "Vivid red poppy flowers preserved in resin for a statement earring piece.",
+       price: 90,
+       countInStock: 7,
+       rating: 4.9,
+       numReview: 10,
+     },
+     {
+       id: '6',
+       name: "Sunflower Necklace",
+       image: "https://images.unsplash.com/photo-1629904852973-d6483c5df563?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3",
+       description: "Bright and cheerful sunflower pendant, encased in premium resin.",
+       price: 95,
+       countInStock: 3,
+       rating: 4.6,
+       numReview: 6,
+     }
+   ];
+   
+module.exports = products;
+   
